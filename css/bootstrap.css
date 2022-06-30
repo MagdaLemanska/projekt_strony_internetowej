@@ -1,0 +1,158 @@
+@media screen and (max-width: 1650px) {
+    .topnav a {display: none;}
+    .topnav a.icon {position: absolute;
+      left: 0;
+      top: 0;
+      display: block;
+    }
+  }
+
+
+@media screen and (max-width: 1650px) {
+
+  /* wygląd głównego elementu - nav */
+.topnav.responsive {
+  width: 50%;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  background-color: #052f52;
+  font-size: 32px;
+  font-family: Arial,"Helvetica Neue",Roboto,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  height: 77px;
+  line-height: 77px;
+  text-align: left;
+  float: right;
+  display: flex;
+  flex-direction: column ;
+  position: absolute;
+}
+
+.topnav.responsive > li:first-child {
+  margin-top: 77px;
+}
+
+/* wygląd wszystkich elementów - a - znajdujących się w elemencie - nav */
+.topnav.responsive a {
+  display: block;
+  text-decoration: none;
+  color: #e4f1fe;
+  padding:0px 15px;
+  height: 77px;
+}
+
+/* wygląd elementów - li - wszystkich dzieci elementu - nav */
+.topnav.responsive > li {
+  float:left;
+  width: 250px;
+  height:100%;
+  background-color:#052f52;
+}
+
+/* wygląd elementu - li - pierwszego dziecka elementu - nav */
+.topnav.responsive > li:first-child {
+  margin-left: 0;
+}
+
+/* wygląd elementów - li - wszystkich dzieci elementu - nav - po najechaniu kursorem myszki na element - li */
+.topnav.responsive > li:hover {
+  background-color:#EEE;
+  height: 77px;
+}
+
+/* wygląd elementu - a - dziecka elementu - li - będącego dzieckiem elementu - nav - po najechaniu kursorem myszki na element - li */
+.topnav.responsive > li:hover > a {
+  color:#09C;
+}
+
+/* wygląd elementu - ul - dziecka elementu - li - będącego dzieckiem elementu - nav - po najechaniu kursorem myszki na element - li */
+.topnav.responsive > li:hover > ul {
+  display:block;
+}
+
+.topnav.responsive > li > ul {
+  display:none;
+  list-style-type: none;
+  padding:0;
+  margin:0;
+  margin-top: -77px;
+  margin-left: 250px;
+}
+
+/* wygląd elementu - li - w części rozwijanej */
+.topnav.responsive > li > ul > li {
+  position:relative;
+  background-color:#043865;
+  font-size: 20px;
+  height: 60px;
+  margin: 0 ;
+  width: 200px;
+}
+
+/* wygląd elementu - a - w części rozwijanej */
+.topnav.responsive > li > ul > li > a {
+  border-top:1px solid #043865;
+  height: 60px;
+  line-height: 60px;
+  padding:0 10px;
+}
+
+/* wygląd elementu - li - w części rozwijanej, po najechaniu kursorem myszki na dany element - li */
+.topnav.responsive > li > ul > li:hover {
+  background-color:#043865;
+}
+
+/* wygląd elementu - a - w części rozwijanej, po najechaniu kursorem myszki na element - li */
+.topnav.responsive > li > ul > li:hover > a {
+  color:#09C;
+}
+
+  }
+
+
+/* Ikona PDF */
+@font-face {
+  font-family: "bootstrap-icons";
+  src: url("../fonts/bootstrap-icons.woff2?a97b3594ad416896e15824f6787370e0") format("woff2"),
+url("../fonts/bootstrap-icons.woff?a97b3594ad416896e15824f6787370e0") format("woff");
+}
+
+.bi::before,
+[class^="bi-"]::before,
+[class*=" bi-"]::before {
+  display: inline-block;
+  font-family: bootstrap-icons !important;
+  font-style: normal;
+  font-weight: normal !important;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  vertical-align: -.125em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.bi-file-pdf::before { content: "\f640"; }
+
+
+/* Ikona "burgera" */
+/* Font Awesome 4.7.0 by @davegandy - http://fontawesome.io - @fontawesome
+ *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
+ */
+ @font-face {
+  font-family: 'FontAwesome';
+  src: url('../fonts/fontawesome-webfont.woff2?v=4.7.0') format('woff2'), 
+url('../fonts/fontawesome-webfont.woff?v=4.7.0') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.fa-bars:before {
+  content: "\f0c9";
+}

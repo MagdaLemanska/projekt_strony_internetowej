@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <title>Projektowanie stron w HTML i CSS - PG</title>
+        <meta name="author" content="Dawid Drążewski & Damian Kargol & Sylwia Sulkowska">
+        <meta name="description" content="PG Projekt specjalnościowy matematyka 2022 -
+        Projekt zajęć laboratoryjnych dotyczących projektowania stron w html i css">
+        <link rel="stylesheet" href="../../css/style.css">
+        <link rel="stylesheet" href="../../css/bootstrap.css">
+        <script src="../../js/script.js" defer></script>
+    </head>
+
+    <body>
+        <header class="desktop-header">
+            <div class="container-wide"> 
+                <div class="container-logo-pg">
+                    <a href="https://pg.edu.pl"><img class="header-logo" src="../../images/logo_pg.png" alt="Logo PG"></a>
+                </div>
+                <div class="container-component">
+                <div class="container-component-upper"></div>
+                <div class="container-component-lower">
+                    <nav class="topnav" id="myTopnav">
+                        <li><a href="#">Na początek</a>
+                          <ul>
+                            <li><a href="../na_poczatek/visual_studio_code_installation.html">Visual Studio Code</a></li>
+                            <li><a href="../na_poczatek/live_server_installation.html">Live Server</a></li>
+                          </ul>
+                        </li>
+                  
+                        <li><a href="#">Wykłady</a>
+                          <ul>
+                            <li><a href="../wyklady/wyklad_1.html">Wykład 1 - HTML</a></li>
+                            <li><a href="../wyklady/wyklad_2.html">Wykład 2 - CSS</a></li>
+                            <li><a href="../wyklady/wyklad_3.html">Wykład 3 - Projekty</a></li>
+                          </ul>
+                        </li>
+                  
+                        <li><a href="#">Laboratoria</a>
+                        <ul>
+                            <li><a href="../laboratoria/laboratoria_1.html">Laboratoria 1</a></li>
+                            <li><a href="../laboratoria/laboratoria_2.html">Laboratoria 2</a></li>
+                            <li><a href="../laboratoria/laboratoria_3.html">Laboratoria 3</a></li>
+                            <li><a href="../laboratoria/laboratoria_4.html">Laboratoria 4</a></li>
+                            <li><a href="../laboratoria/laboratoria_5.html">Laboratoria 5</a></li>
+                            <li><a href="../laboratoria/laboratoria_6.html">Laboratoria 6</a></li>
+                            <li><a href="../laboratoria/laboratoria_7.html">Laboratoria 7</a></li>
+                            <li><a href="../laboratoria/laboratoria_8.html">Laboratoria 8</a></li>
+                          </ul>  
+                        </li>
+
+                        <li><a href="#">Dodatki</a>
+                          <ul>
+                            <li><a href="../../zajecia/dodatki/szablony.html">Szablony</a></li>
+                            <li><a href="../../zajecia/dodatki/github.html">GitHub</a></li>
+                            <li><a href="../../zajecia/dodatki/hosting.html">Hosting</a></li>
+                          </ul>
+                        </li>
+                        <li><a href="#">Linki</a>
+                          <ul>
+                            <li><a href="https://pg.edu.pl/">PG</a></li>
+                            <li><a href="https://enauczanie.pg.edu.pl/moodle">eNauczanie</a></li>
+                            <li><a href="https://moja.pg.edu.pl/">Moja PG</a></li>
+                          </ul>
+                        </li>
+                        <li>
+                          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                            <i class="fa fa-bars"></i>
+                          </a>
+                        </li>
+                    </nav>
+                </div>
+                </div>
+                <div class="container-logo-project">
+                 <a href="../../index.html"><img class="header-logo" src="../../images/logo_projektu.png" alt="Logo projektu"></a>
+              </div>               
+            </div>
+        </header>
+         
+        <div class="content">
+          <h1>Ćwiczenia 4</h1>
+          <h2>Przygotowanie Formularza</h2>
+          <ol> 
+              <li>Stwórz formularz zamówienia</li>
+              <li>Jeśli kontynuujesz  zajęcia lub używasz szablonu z poprzednich zajęć dodaj akcję przyciskowi na stronie głównej, aby przechodził na podstronę z formularzem</li>
+              <li>Formularz musi zawierać:
+                  <ul>
+                      <li>Ramkę, w której znajdą się pola do uzupełnienia oraz legendę na górze (<b>fieldset</b> oraz <b>legend</b>) </li>
+                      <li>Pole typu TEXT</li>
+                      <li>Pole typu CHECKBOX</li>
+                      <li>Pole typu RADIO</li>
+                      <li>Pole typu TEXTAREA</li>
+                      <li>Pole typu SUBMIT</li>                    
+                  </ul>
+
+              </li>
+              <li>Wygląd oraz warunki
+                <ul>
+                  <li>W polach typu TEXT nanieś takie parametry jak limit długości wpisanego tekstu.<br>Ustaw typ <b>text</b> lub <b>number </b>oraz użyj <b>placeholder</b> tak aby w polu pokazywał się tekst, który zniknie po rozpoczęciu uzupełniania pola</li>
+                
+                  <li>W polach typu RADIO oraz CHECKBOX ustaw etykietę, aby po naciśnięciu na nazwę pole również zostało zaznaczone</li>
+                
+                  <li>Stwórz sekcje z polem RADIO, które będzie się zaznaczało po kliknięciu w obraz</li>
+              
+                  <li>Pola RADIO ustaw w taki sposób, aby tylko jedno mogło być zaznaczone w danej sekcji formularza (skorzystaj z atrybutu <b>name</b>)</li>
+                  <li>W polu SUMBMIT Ustaw pola wymagane <b>required</b> w przypadku których zostanie zwrócony komunikat z prośbą o uzupełnienie </li>
+                  <img src="../../images/poleWymagane.JPG" title="Pole required">
+                </ul>
+
+              </li>
+              <li>Przykład <br>
+                <img src="../../images/szablonWidok4.JPG" title="Efekt laboratoria 4" height="1400" >
+              </li>
+              <li>Rozwiązanie umieszczamy na <a href="https://enauczanie.pg.edu.pl/moodle">eNauczaniu</a></li> <!--Ustandaryzować czcionkę dla tej listy-->
+          </ol>
+      
+          <br><br><br>
+        </div>
+    
+    </body>
+</html>

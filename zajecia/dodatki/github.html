@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <title>Projektowanie stron w HTML i CSS - PG</title>
+        <meta name="author" content="Dawid Drążewski & Damian Kargol & Sylwia Sulkowska">
+        <meta name="description" content="PG Projekt specjalnościowy matematyka 2022 -
+        Projekt zajęć laboratoryjnych dotyczących projektowania stron w html i css">
+        <link rel="stylesheet" href="../../css/style.css">
+        <link rel="stylesheet" href="../../css/bootstrap.css">
+        <script src="../../js/script.js" defer></script>
+    </head>
+
+    <body>
+        <header class="desktop-header">
+            <div class="container-wide"> 
+                <div class="container-logo-pg">
+                    <a href="https://pg.edu.pl"><img class="header-logo" src="../../images/logo_pg.png" alt="Logo PG"></a>
+                </div>
+                <div class="container-component">
+                <div class="container-component-upper"></div>
+                <div class="container-component-lower">
+                    <nav class="topnav" id="myTopnav">
+                        <li><a href="#">Na początek</a>
+                          <ul>
+                            <li><a href="../na_poczatek/visual_studio_code_installation.html">Visual Studio Code</a></li>
+                            <li><a href="../na_poczatek/live_server_installation.html">Live Server</a></li>
+                          </ul>
+                        </li>
+                  
+                        <li><a href="#">Wykłady</a>
+                          <ul>
+                            <li><a href="../wyklady/wyklad_1.html">Wykład 1 - HTML</a></li>
+                            <li><a href="../wyklady/wyklad_2.html">Wykład 2 - CSS</a></li>
+                            <li><a href="../wyklady/wyklad_3.html">Wykład 3 - Projekty</a></li>
+                          </ul>
+                        </li>
+                  
+                        <li><a href="#">Laboratoria</a>
+                        <ul>
+                          <li><a href="../laboratoria/laboratoria_1.html">Laboratoria 1</a></li>
+                          <li><a href="../laboratoria/laboratoria_2.html">Laboratoria 2</a></li>
+                          <li><a href="../laboratoria/laboratoria_3.html">Laboratoria 3</a></li>
+                          <li><a href="../laboratoria/laboratoria_4.html">Laboratoria 4</a></li>
+                          <li><a href="../laboratoria/laboratoria_5.html">Laboratoria 5</a></li>
+                          <li><a href="../laboratoria/laboratoria_6.html">Laboratoria 6</a></li>
+                          <li><a href="../laboratoria/laboratoria_7.html">Laboratoria 7</a></li>
+                          <li><a href="../laboratoria/laboratoria_8.html">Laboratoria 8</a></li>
+                          </ul>  
+                        </li>
+
+                        <li><a href="#">Dodatki</a>
+                          <ul>
+                            <li><a href="../../zajecia/dodatki/szablony.html">Szablony</a></li>
+                            <li><a href="../../zajecia/dodatki/github.html">GitHub</a></li>
+                            <li><a href="../../zajecia/dodatki/hosting.html">Hosting</a></li>
+                          </ul>
+                        </li>
+                        <li><a href="#">Linki</a>
+                          <ul>
+                            <li><a href="https://pg.edu.pl/">PG</a></li>
+                            <li><a href="https://enauczanie.pg.edu.pl/moodle">eNauczanie</a></li>
+                            <li><a href="https://moja.pg.edu.pl/">Moja PG</a></li>
+                          </ul>
+                        </li>
+                        <li>
+                          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                            <i class="fa fa-bars"></i>
+                          </a>
+                        </li>
+                    </nav>
+                </div>
+                </div>
+                <div class="container-logo-project">
+                 <a href="../../index.html"><img class="header-logo" src="../../images/logo_projektu.png" alt="Logo projektu"></a>
+              </div>               
+            </div>
+        </header>
+        
+      <div class="content">
+          <footer>
+              <h1 class="wyklad-title">GitHub</h1>
+          </footer>
+          <br><h2>Czym jest GitHub?</h2>
+          <p>Git to system kontroli wersji, który zarządza zmianami w projekcie bez nadpisywania jakiejkolwiek części tego projektu. Można scalić swoje zmiany razem ze zmianami innych uczestników projektu bez ryzyka kolizji zmian. Można nawet powrócić do wcześniejszej wersji w dowolnym momencie, ponieważ Git przechowuje historię wszystkich poprzednich wersji projektu i każdej dokonanej w nim zmiany. Dzięki GitHubowi można współpracować z innymi osobami i łączyć części projektów tak, aby nie utracić żadnych zmian. Git jest używany w wielu miejscach pracy oraz jest podstawowym narzędziem przy zespołowej pracy nad kodem.
+          </p>
+          <ol>
+            <li>
+              Zainstaluj  ze <a href="https://git-scm.com/" target="_blank"><b>strony GitHuba</b></a>
+            </li><br>
+            <li>
+             Załóż konto na  <a href="https://github.com/" target="_blank"><b>stronie GitHuba</b></a>.
+            </li>
+          </ol>
+          <p>Właśnie na stronie github.com nie posiadając własnego serwera można udostępnić swój kod, by móc pokazywać go innym osobom. Bez wykupienia konta premium GitHub pozwala na tworzenie i udostępnianie repozytoriów publicznie – prywatne repozytoria są płatne.</p>
+
+        <br><br><h2>Co to repozytorium i branch?</h2>
+       <p>
+        Wikipedia podpowiada, że to miejsce uporządkowanego przechowywania dokumentów, z których wszystkie przeznaczone są do udostępniania. Repozytorium może zawierać wiele katalogów oraz plików napisanych w wielu językach kodowania. Jedno repozytorium często obejmuje jeden projekt.
+       </p>
+       <p>
+        GitHub jest świetny do pracy zespołowej dzięki branchom (oddziałom). Branche pozwalają edytować różne wersje repozytorium w jednym czasie – każdy członek danej grupy projektowej może mieć własny branch i nie ingeruje to w pracę innych osób. Branch main jest branchem finalnym, który jest odpowiednim połączeniem reszty branchy. Podczas pracy w grupie, ważne jest, aby pracować na swoim branchu.
+       </p>
+       <br><br><h2>Tworzenie pierwszego repozytorium</h2>
+<p>Jeżeli instalacja przebiegła pomyślnie, można otworzyć aplikację GitHub Desktop. Po zalogowaniu należy wybrać opcję stworzenia repozytorium – na początek opcję „Create a tutorial repository…”. </p>
+
+<img src="../../images/github1.png" alt="github1" width="400"><br><br><br>  
+           
+<p>Należy się zalogować i zautoryzować konto w nowo otwartym oknie przeglądarki.</p>
+<img src="../../images/github2.png" alt="github2" width="600">
+<p> Po prawej stronie w aplikacji wyświetlają się kolejne etapy samouczka. Pierwszym krokiem jest stworzenie nowego brancha. </p>
+<p>Zgodnie z kolejnymi krokami samouczka, należy edytować plik ‘README’ i zapisać zmiany nadając im odpowiedni opis w lewym dolnym rogu.<br>
+  Tworzenie pliku README jest tradycją wśród twórców oprogramowania. Plik dostarcza informacje, czego projekt dotyczy oraz jak działa, zdecydowanie ułatwia jego zrozumienie osobom niezaangażowanym w tworzenie kodu, ale przyda się również autorom, wracających do kodu po dłuższym czasie.</p>
+
+
+  <br><br><h2>Jak udostępnić treść i zacząć działać?</h2>
+  <ol>
+    <li>
+      Należy zalogować się na stronie github.com </li>
+ <li>Po lewej stronie znajduje się  sekcja „Recent repositories”, a także wyróżniony przycisk do stworzenia nowego repozytorium.</li>
+  <li>Aby dodać plik na serwer na dany branch, wystarczy zmienić branch na wybrany oraz kliknąć „Add file” – jest opcja stworzyć nowy plik w wybranym rozszerzeniu albo załączyć z komputera (można również przeciągnąć plik prosto z folderu). Jest to <b>push</b> – wysyłanie danych na serwer.</li><br>
+  <img src="../../images/github3.png" alt="github3" width="400"><br><br>
+  <li>
+    Aby pobrać pliki z danego brancha, należy kliknąć zielony przycisk „Code” i wybrać odpowiadającą opcję – otworzyć folder w GitHub Desktop lub pobrać w ZIPie  na komputer.<br><br>
+   <img src="../../images/github4.png" alt="github4" width="400"><br><br>
+  </li>
+  <li>
+    Wraz z rozwojem projektu, należy co pewien czas połączyć branche, tak, aby uaktualnić branch main. Po dodaniu nowych plików przez osobę z projektu pojawi się powiadomienie i opcja „pull request”, czyli wysłanie prośby o połączenie pracy z branchy. <br><br>
+    <img src="../../images/github5.png" alt="github5" width="600"> <br><br>
+    Po wysłaniu prośby pojawi się ona na górze w zakładce „Pull request” – tam można sprawdzić, czy występują błędy powiązane z łączeniem branchy i jeżeli takowych nie ma, to osoba uprawniona może potwierdzić połączenie.<br><br>
+    <img src="../../images/github6.png" alt="github6" width="600"><br><br>
+  </li>
+  </ol>
+
+  
+
+        </div>      
+
+    </body>
+</html>
